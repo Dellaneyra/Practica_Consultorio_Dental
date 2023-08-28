@@ -1,0 +1,14 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(./CONSULTORIO-DENTAL/assets/img/Captura\ de\ pantalla\ 2023-08-28\ 132605.png);
+    background-repeat: repeat;
+    text-align: center;
+    font-size: larger;
+}
+
+body h1 {
+    font-size: 50px;
+}
