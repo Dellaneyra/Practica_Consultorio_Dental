@@ -1,0 +1,45 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 255, 250), rgb(99, 230, 247));
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    /* Elimina los marcadores (puntitos) de la lista desordenada */
+    margin: 10px 0;
+    /* Agrega margen arriba y abajo para separar la lista de otros elementos */
+}
+
+/* Estilo para los elementos de la lista dentro de la lista desordenada */
+ul li {
+    font-size: 20px;
+    /* Cambia el tamaño de fuente de los elementos de la lista */
+    margin-bottom: 5px;
+    /* Agrega espacio entre los elementos de la lista */
+}
+
+footer {
+    background-image: url(/CONSULTORIO-DENTAL/assets/img/Captura\ de\ pantalla\ 2023-08-28\ 132605.png);
+    background-size: contain;
+}
+
+@media(min-width: 500px) and (max-width:1024px) {
+    body {
+        background: linear-gradient(to right, rgb(234, 0, 255), rgb(123, 0, 255));
+        ;
+        font-family: cursive;
+    }
+}

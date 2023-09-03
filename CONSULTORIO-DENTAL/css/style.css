@@ -4,16 +4,30 @@ margen superior
 altura y ancho
 */
 
+
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    text-align: justify;
 }
 
 .logo {
-    margin-top: 30px;
-    height: 100px;
-    width: 170px;
+    width: 120px;
+    vertical-align: middle;
+
 }
 
+nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 6px 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: rgb(181, 255, 255);
+}
 
 /*
 Menú de navegacion y lista
@@ -25,16 +39,6 @@ bordes redondeados
 tamaño de fuente
 */
 
-
-nav li {
-    display: inline-block;
-    width: 10%;
-    padding: 6px 10px;
-    text-align: center;
-    border-radius: 15px;
-    font-size: 18px;
-    background-color: rgb(156, 248, 248);
-}
 
 
 /*
@@ -65,14 +69,15 @@ tamaño de texto
 
 
 .divPrincipal {
-    height: 500px;
+    height: 350px;
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 10px;
     margin: -10px;
-    background-color: antiquewhite;
+    background-image: url(/CONSULTORIO-DENTAL/assets/img/Captura\ de\ pantalla\ 2023-08-28\ 132605.png);
     font-size: 22px;
-    color: #3A3636;
+    color: #000000;
+    text-align: justify;
 }
 
 
@@ -85,6 +90,7 @@ tamaño de texto
     background-color: #D5F7FF;
     font-size: 22px;
     color: #3A3636;
+    text-align: justify;
 }
 
 
@@ -116,7 +122,7 @@ tamalño de fuente
 
 
 button {
-    background-color: #1DD2FF;
+    background-color: #33d8fa;
     border: none;
     padding: 18px 30px 18px 30px;
     border-radius: 25px;
@@ -141,8 +147,8 @@ margen exterior derecho e izquierdo
 
 
 .imgPrincipal {
-    height: 400px;
-    width: 350px;
+    height: 300px;
+    width: 250px;
     border-radius: 25px;
     float: right;
     margin-right: 50px;
@@ -150,7 +156,7 @@ margen exterior derecho e izquierdo
 }
 
 
-.imgSecundaria {
+.imgizquierda {
     height: 400px;
     width: 350px;
     border-radius: 25px;
@@ -159,7 +165,48 @@ margen exterior derecho e izquierdo
     margin-left: 50px;
 }
 
-table {
-    width: auto;
-    margin: auto;
+
+.imgderecha {
+    height: 400px;
+    width: 350px;
+    border-radius: 25px;
+    float: right;
+    margin-right: 50px;
+    margin-left: 50px;
 }
+
+table {
+    width: 1000px;
+    /* Ancho de la tabla al 100% del contenedor */
+    border-collapse: collapse;
+    /* Colapsar bordes de las celdas */
+    margin-bottom: 10px;
+    /* Espacio inferior para separar de otros elementos */
+}
+
+/* Estilos de las celdas de datos */
+td,
+th {
+    padding: 8px;
+    /* Espacio interno en celdas */
+    text-align: left;
+    /* Alineación del texto en celdas (izquierda) */
+    border: 2px solid #ddd;
+    /* Borde de celdas */
+}
+
+/* Estilos de los encabezados de columna */
+th {
+    background-color: #333;
+    /* Color de fondo de encabezados */
+    color: white;
+    /* Color de texto en encabezados */
+}
+
+/* Estilo para resaltar la primera fila (por ejemplo, encabezados) */
+tr:first-child {
+    font-weight: bold;
+    /* Texto en negrita */
+}
+
+@media(min-width: 500px) and (max-width:1024px) {}
