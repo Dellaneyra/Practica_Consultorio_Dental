@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diente Feliz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@200;400&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!--Aqui comienza la barra de navegacion-->
+        <img id="logo" src="/CONSULTORIO-DENTAL/assets/img/Texto del párrafo.png"> <!--Imagen del logo-->
+        <div class="container-fluid"> <!--abre primer div-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> <!--tipo de botones asignados en el nav bar-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--comienza primer div para lista de la nav bar-->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!--lista de navegacion-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Incio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/CONSULTORIO-DENTAL/AcercaDe.html" target="_blank">Acerca de
+                            nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/CONSULTORIO-DENTAL/index.html" target="_blank">Más servicios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Más opciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/formulario_consultorio.html"
+                                    target="_blank">Valoración</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.google.com/maps/place/Imagen+Dental/@25.6504933,-100.1122065,17z/data=!3m2!4b1!5s0x8662c2e4c320a8ed:0x99d34eaedcba145b!4m6!3m5!1s0x8662c2e4ff9e811f:0x806f39ea8278cf01!8m2!3d25.6504933!4d-100.1122065!16s%2Fg%2F11b6y_2lyy?entry=tts&shorturl=1"
+                                    target="_blank">Ubicaciónes</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=528183707080"
+                                    target="_blank">Contactanos</a></li>
+                        </ul>
+                    </li>
+
+                </ul> <!--Finaliza lista que contiene items de navegacion-->
+                <form class="d-flex" role="search"> <!--barra de busqueda-->
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <!--input para barra de busqueda-->
+                    <button class="submit" type="submit">Buscar</button> <!--boton para buscador-->
+                </form>
+            </div><!--termina div para lista de la nav bar-->
+        </div> <!--Aqui termina el primer div-->
+    </nav> <!--Aqui termina la barra de navegacion-->
+
+    <h1 id="titulo"><img class="diente" src="/CONSULTORIO-DENTAL/assets/img/Texto del párrafo (3).png"> La vida es mejor
+        cuando sonries
+        <img class="dientes" src="/CONSULTORIO-DENTAL/assets/img/Texto del párrafo (4).png">
+        <h1> <!--Este título contiene imagenes a los lados, las imagenes son referentes al logo (: )-->
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <!--primer imagen de slideshow-->
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button> <!--segunda imagen de slideshow-->
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button> <!--tercera imagen de slideshow-->
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <img src="/CONSULTORIO-DENTAL/assets/img/Texto del párrafo (9).png" class="d-block"
+                            alt="imagen1"> <!--primer imagen de slideshow-->
+                    </div>
+                    <div class="carousel-item col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <img src="/CONSULTORIO-DENTAL/assets/img/Texto del párrafo (7).png" class="d-block"
+                            alt="imagen2"> <!--segunda imagen de slideshow-->
+                    </div>
+                    <div class="carousel-item col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <img src="/CONSULTORIO-DENTAL/assets/img/Texto del párrafo (8).png" class="d-block"
+                            alt="imagen3"> <!--tercera imagen de slideshow-->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev"> <!--boton para regresar a imagen anterior en slideshow-->
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next"> <!--boton para ir a siguiente imagen en slideshow-->
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br>
+            <br>
+            <div class="container"> <!--Abre contenedor padre-->
+
+                <div class="row"> <!--abre primera fila-->
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <img class="dentalimg2" src="/CONSULTORIO-DENTAL/assets/img/sloganlmg.gif" alt="Servicios">
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-9 col-xl-9">
+                        <h2>Diseñando tu sonrisa con los mejores servicios</h2>
+                        <br>
+                        <ul>Evaluación y planificación de diseño de sonrisa (Gratis)</ul>
+                        <ul>Limpieza dental</ul>
+                        <ul>Extracción simple</ul>
+                        <ul>Extracción de muelas del juicio</ul>
+                        <ul>Blanqueamiento Dental (Presencial y a domicilio)</ul>
+                        <ul>Tratamiento de caries</ul>
+                        <ul>Odontologia general y familiar</ul>
+                        <ul>Invisalign</ul>
+
+                    </div>
+
+                </div> <!--cierre primera fila-->
+
+
+                <br>
+
+
+                <div class="row"> <!--abre segunda fila-->
+
+                    <div class="col-sm-12 col-md-6 col-lg-9 col-xl-9">
+
+                        <p>Contamos con años de conocimiento que nos respaldan en nuestras distintas especialidades</p>
+                        <br>
+                        <table>
+                            <tr>
+                                <th>Doctor</th>
+                                <th>Especialidad</th>
+                            </tr>
+                            <tr>
+                                <td>Dr. Dan Fischer</td>
+                                <td>Odontopediatra o dentista pediátrico</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Richard Malouf</td>
+                                <td>Endodoncista o especialista en tratamientos de conducto</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Rick Kushner</td>
+                                <td>Periodoncista o especialista en encías</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                        <img class="dentalimg2" src="/CONSULTORIO-DENTAL/assets/img/servicioslmg.png"
+                            alt="Servicio dentales">
+                    </div>
+                </div> <!--cierre segunda fila-->
+
+                <br>
+            </div> <!--cierra contenedor padre-->
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                crossorigin="anonymous"></script> <!--Hoja de bootstrap-->
+</body>
+
+</html>

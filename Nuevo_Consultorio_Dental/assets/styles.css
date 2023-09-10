@@ -1,0 +1,143 @@
+body {
+    font-family: Montserrat, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logo {
+    margin: 20px;
+    /* Centra horizontalmente */
+    text-align: justify;
+    /* Opcional: alinea el contenido del contenedor al centro */
+    width: 250px;
+}
+
+.navbar-brand {
+    font-style: bold;
+
+}
+
+form {
+    width: 800px;
+}
+
+#titulo {
+    text-align: center;
+}
+
+.submit {
+    background-color: rgb(10, 143, 150);
+    color: aliceblue;
+    border-color: cadetblue;
+    margin: 3px;
+    border: double;
+}
+
+li {
+    background-color: rgb(176, 218, 221);
+    border-radius: 10px;
+    font-size: medium;
+    width: 170px;
+    margin: 10px;
+    text-align: center;
+}
+
+.diente {
+    width: 100px;
+}
+
+.dientes {
+    width: 120px;
+}
+
+.d-block {
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(10, 143, 150);
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(10, 143, 150);
+}
+
+table {
+    width: 1000px;
+    /* Ancho de la tabla al 100% del contenedor */
+    border-collapse: collapse;
+    /* Colapsar bordes de las celdas */
+    margin-bottom: 10px;
+    /* Espacio inferior para separar de otros elementos */
+}
+
+/* Estilos de las celdas de datos */
+td,
+th {
+    padding: 8px;
+    /* Espacio interno en celdas */
+    text-align: left;
+    /* Alineación del texto en celdas (izquierda) */
+    border: 2px solid #ddd;
+    /* Borde de celdas */
+    font-size: medium;
+}
+
+/* Estilos de los encabezados de columna */
+th {
+    color: rgb(10, 143, 150);
+    /* Color de texto en encabezados */
+    font-size: large;
+}
+
+/* Estilo para resaltar la primera fila (por ejemplo, encabezados) */
+tr:first-child {
+    font-weight: bold;
+    /* Texto en negrita */
+    font-size: large;
+}
+
+ul {
+    font-size: large;
+    text-align: justify;
+    margin: 60px;
+}
+
+h2 {
+    text-align: right;
+    color: rgb(10, 143, 150);
+}
+
+.dentalimg2 {
+    width: 400px;
+}
+
+p {
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Para pantallas pequeñas (móviles) */
+@media screen and (max-width: 576px) {
+    /* Estilos para pantallas pequeñas */
+}
+
+/* Para pantallas medianas (tabletas) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    /* Estilos para pantallas medianas */
+}
+
+/* Para pantallas grandes (escritorio) */
+@media screen and (min-width: 1400px) {
+    /* Estilos para pantallas grandes */
+}
